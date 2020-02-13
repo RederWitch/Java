@@ -7,6 +7,7 @@ class ONP{
     private char[] charArray;
     private Scanner odczyt = new Scanner(System.in);
     
+    //funcion for calcuation
     private void add(){
         double x,y;
         x=stack.pops();
@@ -68,6 +69,7 @@ class ONP{
         System.out.println("Wartość wyrażenia: " + stack.topElem());
     }
 
+    //funcion that return priorites of calculations
     private int operantPriorites( char ch){
         switch (ch){
             case '+':
@@ -80,7 +82,7 @@ class ONP{
         }
     }
     
-    
+    // funcion calculate value of ONP given
     public void valueOfONP(){
         obliczenie = odczyt.nextLine();
         charArray = obliczenie.toCharArray();
@@ -113,6 +115,7 @@ class ONP{
         }
     }
 
+    //funcion translate to ONP
     public void toONP(){
         obliczenie = odczyt.nextLine();
         charArray = obliczenie.toCharArray();
@@ -158,6 +161,7 @@ class ONP{
 
 }
 
+//Home Menu
 class Start{
     public static void main(String[] args){
         ONP onp = new ONP();
