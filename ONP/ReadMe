@@ -1,0 +1,22 @@
+Projekt na zajęcia Algorytmy i struktury danych.
+język: Java
+
+Implementacja Kalkulatora ONP z wykorzystaniem zaimplentowanego przeze mnie stosu.
+Funkcjonalności:
+  1 Przetłumaczenia wyrażeń matematycznych do ONP
+  2 Obliczenia wartości wyrażeń w ONP
+
+Wykorzystana struktura: Stos tablicowy
+Język: Java
+
+
+Project for Alghoritms and Data structures classes.
+Language: Java
+
+Implementation of ONP calculator with usage of my implamentation of Stack.
+Funcionalitis:
+  1 Translation to ONP
+  2 Calculation value of ONP
+  
+Stucture used: Stack on table
+Language: Java
