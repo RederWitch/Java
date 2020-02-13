@@ -9,6 +9,9 @@ Funkcjonalności:
 Wykorzystana struktura: Stos tablicowy
 Język: Java
 
+Dane wprowadzane:
+pomiędzy znakami musi występować spacja a wyrażenie musi kończyć się "="
+np: 2 + 12 =   lub   2 12 + = 
 
 Project for Alghoritms and Data structures classes.
 Language: Java
@@ -20,3 +23,6 @@ Funcionalitis:
   
 Stucture used: Stack on table
 Language: Java
+
+Info: While entering the data u need to pud white space between symbols and end it with "="
+eg: 2 + 12 =  or  2 12 + =
